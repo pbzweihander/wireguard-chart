@@ -19,7 +19,7 @@ metadata:
 rules:
 - apiGroups: [""]
   resources: ["secrets"]
-  verbs: ["create", "read"]
+  verbs: ["create", "get"]
 {{- /* Need a service account for the job/hook */}}
 ---
 apiVersion: v1
