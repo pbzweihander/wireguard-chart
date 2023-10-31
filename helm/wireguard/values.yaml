@@ -1,7 +1,7 @@
 # -- Run as a DaemonSet instead of Deployment
 daemonSet: false
 image:
-  repository: ghcr.io/bryopsida/wireguard
+  repository: ghcr.io/pbzweihander/oci-wireguard
   tag: main
   pullPolicy: Always
 
